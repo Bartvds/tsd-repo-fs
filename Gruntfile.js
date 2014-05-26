@@ -8,6 +8,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-mocha-test');
+	grunt.loadNpmTasks('grunt-ts-clean');
 
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -55,6 +56,12 @@ module.exports = function (grunt) {
 				outDir: 'tmp/'
 			}
 		},
+		ts_clean: {
+			dist: {
+				src: ['dist/**/*'],
+				dot: true
+			}
+		},
 		mochaTest: {
 			options: {
 				reporter: 'mocha-unfunk-reporter'
@@ -83,18 +90,9 @@ module.exports = function (grunt) {
 		'mochaTest:all'
 	]);
 
-	grunt.registerTask('dev', [
-		'ts:test',
-		'mochaTest:all'
-	]);
-
 	grunt.registerTask('prepublish', [
-		'test',
-		'clean',
-		'build'
+		'build',
+		'ts_clean:dist'
 	]);
-
-	grunt.registerTask('debug', ['build']);
-
 	grunt.registerTask('default', ['build']);
 };
