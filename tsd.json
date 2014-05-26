@@ -17,12 +17,6 @@
     "minimatch/minimatch.d.ts": {
       "commit": "3cf31761ecf3e0c4990712cadb6adb6d844b3702"
     },
-    "assertion-error/assertion-error.d.ts": {
-      "commit": "99d0cb46d8b3277ae6b8f1ebf6c6fcc990cd3b74"
-    },
-    "minimist/minimist.d.ts": {
-      "commit": "3cf31761ecf3e0c4990712cadb6adb6d844b3702"
-    },
     "findup-sync/findup-sync.d.ts": {
       "commit": "3cf31761ecf3e0c4990712cadb6adb6d844b3702"
     },
