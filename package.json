@@ -6,10 +6,10 @@
     "typescript",
     "tsd"
   ],
-  "homepage": "https://github.com/DefinitelyTyped/tsd-repo-fs",
+  "homepage": "https://github.com/Bartvds/tsd-repo-fs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DefinitelyTyped/tsd-repo-fs.git"
+    "url": "https://github.com/Bartvds/tsd-repo-fs.git"
   },
   "author": {
     "name": "Bart van der Schoor",
@@ -17,10 +17,10 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://raw.github.com/DefinitelyTyped/tsd-repo-fs/master/MIT.txt"
+    "url": "https://raw.github.com/Bartvds/tsd-repo-fs/master/MIT.txt"
   },
   "bugs": {
-    "url": "https://github.com/DefinitelyTyped/tsd-repo-fs/issues"
+    "url": "https://github.com/Bartvds/tsd-repo-fs/issues"
   },
   "engines": {
     "node": ">= 0.10.0"

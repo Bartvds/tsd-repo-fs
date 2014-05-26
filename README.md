@@ -1,6 +1,6 @@
-# tsd-core
+# tsd-repo-fs
 
-[![Build Status](https://secure.travis-ci.org/DefinitelyTyped/tsd-core.png?branch=master)](http://travis-ci.org/DefinitelyTyped/tsd-core) [![NPM version](https://badge.fury.io/js/tsd-core.png)](http://badge.fury.io/js/tsd-core) [![Dependency Status](https://david-dm.org/DefinitelyTyped/tsd-core.png)](https://david-dm.org/DefinitelyTyped/tsd-core) [![devDependency Status](https://david-dm.org/DefinitelyTyped/tsd-core/dev-status.png)](https://david-dm.org/DefinitelyTyped/tsd-core#info=devDependencies)
+[![Build Status](https://secure.travis-ci.org/Bartvds/tsd-repo-fs.png?branch=master)](http://travis-ci.org/Bartvds/tsd-repo-fs) [![NPM version](https://badge.fury.io/js/tsd-repo-fs.png)](http://badge.fury.io/js/tsd-repo-fs) [![Dependency Status](https://david-dm.org/Bartvds/tsd-repo-fs.png)](https://david-dm.org/Bartvds/tsd-repo-fs) [![devDependency Status](https://david-dm.org/Bartvds/tsd-repo-fs/dev-status.png)](https://david-dm.org/Bartvds/tsd-repo-fs#info=devDependencies)
 
 > TSD component module
 
@@ -32,6 +32,6 @@ See the `Gruntfile.js` for additional commands.
 
 ## License
 
-Copyright (c) 2014 [DefinitelyTyped](https://github.com/DefinitelyTyped)
+Copyright (c) 2014 [Bartvds](https://github.com/Bartvds)
 
 Licensed under the MIT license.
